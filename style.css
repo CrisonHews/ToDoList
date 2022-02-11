@@ -1,0 +1,52 @@
+
+/* Add all your styles here */
+
+body {
+    font-size: 15pt;
+}
+.span{
+  border: 5px solid slategray;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-start;
+ height:auto;
+overflow: hidden;
+}
+h4{
+  background-color: #29FF00;
+  color:#5A5F59;
+
+}
+h1{
+  background-color: #F400FFA8;
+  border-radius:40px;
+  display:flex;
+  justify-content: center;
+  padding:10px;
+  width: 300px;
+  color:white;
+  top: 5px;
+  border: 4px dashed black;
+}
+.div{
+  margin-top: 50px;
+  content:"Click To Add Conetent";
+  background-color: #30DDBB;
+ height: auto;
+ border: 3px solid black;
+ border-radius: 30px;
+}
+.add{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add button{
+  border: 5px groove limegreen;
+  border-radius: 50%;
+  height: 6vh;
+  width: 12vh;
+  background-color: #A0BC02;
+  
+}
